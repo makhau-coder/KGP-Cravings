@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.2), rgb(77, 77, 77, 0.2));
+    position: fixed;
+    z-index: 1000;
+    transition: all 200ms ease-out;
+}
+
+#logo {
+    height: 100%;
+    width: 80px;
+    margin-left: 10%;
+}
+
+#logo img {
+    height: 100%;
+    width: 100%;
+}
+
+#search {
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#search input {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+}
+
+#search img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#nav {
+    margin-right: 7.5%;
+}
+
+#nav_links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+#nav_links li {
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 18px;
+}
+
+#nav_links li:hover {
+    background-color: rgb(240, 226, 2, 1);
+}
+
+#nav_links li:hover a {
+    color: black;
+}
+
+#nav_links li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#banner {
+    background-color: rgb(30, 28, 40);
+    height: 70vh;
+    width: 100%;
+}
+
+#banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+#Cards {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background-color: rgba(0, 0, 0, 0.822);
+    width: 400px;
+    height: 270px;
+    display: flex;
+    margin: 40px 10px;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+}
+
+.cards:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.cards span {
+    color: white;
+    width: 150px;
+    font-size: 22.5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 37%;
+}
+
+#main_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 150px;
+    height: 100%;
+}
+
+.Price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgba(169, 169, 169, 0.61);
+    color: rgb(50, 50, 50);
+    padding: 7px 12px;
+    font-size: 17px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    background-color: rgb(254, 227, 29);
+}
+
+.Restro_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 7px 12px;
+    font-size: 17px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(254, 227, 29);
+}
+
+.cards img {
+    width: 250px;
+    height: 250px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Icons {
+    /* width: 200px; */
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 28, 40);
+    border-radius: 2000000000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.Icons>img {
+    margin-top: 0px;
+    width: 150px;
+}
+
+.Food_Name {
+    margin-bottom: 15px;
+}
+
+.Big {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(30, 28, 40);
+}
+
+.Food_Name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
